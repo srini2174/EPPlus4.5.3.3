@@ -23,7 +23,7 @@ namespace OfficeOpenXml.Sparkline
         /// </summary>
         public int Indexed
         {
-            get => GetXmlNodeInt("@indexed");
+            get { return GetXmlNodeInt("@indexed"); }
             set
             {
                 if (value < 0 || value > 65)
@@ -40,7 +40,7 @@ namespace OfficeOpenXml.Sparkline
         /// </summary>
         public string Rgb
         {
-            get => GetXmlNodeString("@rgb");
+            get { return GetXmlNodeString("@rgb"); }
             internal set
             {
                 SetXmlNodeString("@rgb", value);
@@ -55,7 +55,7 @@ namespace OfficeOpenXml.Sparkline
         /// </summary>
         public decimal Tint
         {
-            get=> GetXmlNodeDecimal("@tint");
+            get { return GetXmlNodeDecimal("@tint"); }
             set
             {
                 if (value > 1 || value < -1)

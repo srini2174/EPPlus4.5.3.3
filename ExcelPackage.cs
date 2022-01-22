@@ -540,7 +540,8 @@ namespace OfficeOpenXml
 #endif
             if (v != null)
             {
-                if(Boolean.TryParse(v.ToLowerInvariant(), out bool value))
+                bool value;
+                if(Boolean.TryParse(v.ToLowerInvariant(), out value))
                 {
                     Compatibility.IsWorksheets1Based = value;
                 }
