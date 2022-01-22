@@ -1,0 +1,71 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build Directory
+.vscode/**
+build/**
+**/obj/**
+**/bin/**
+Runtime/**
+.vs/**
+*.cache
+
+
+*.laccdb
+
+scratch/
+
+Deleted File/
+
+Resources/zscvcvcxcvxcv\.xml
+
+Resources/kkkk\.xml
+
+Resources/ID008\.xml
+
+Resources/test121\.xml
+
+Resources/jkljkl\.xml
+
+Resources/fdg\.xml
+
+Resources/ABB \.xml
+
+Resources/sdfdsf\.xml
+
+Resources/Test _12345\.xml
+/EPlan/*
+/Resources/Projects/*
+**/obj/**
+/.project
+*.bak
